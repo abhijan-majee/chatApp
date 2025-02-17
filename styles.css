@@ -1,0 +1,108 @@
+body{
+    background-image: url("wall.jpg");
+    height: fit-content;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+section{
+  margin-top: 59px;
+  width: 100%;
+}
+
+.mainarea {
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
+.navside{
+  overflow-y: scroll;
+  float: left;
+  left: 0;
+  width: 30%;
+  height: 550px;
+  background-color: black;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+li a {
+  display: block;
+  height: 60px;
+  color: white;
+  padding: 20px 5px;
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 0;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.textbar{
+    position: fixed;
+    height: 70px;
+    width: 70%;
+    right: 0;
+    bottom: 0;
+    background-color: #f8f9fa;
+}
+input[type=text]{
+    width: 85%;
+    padding: 12px 20px;
+    margin: 10px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 13%;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: black;
+  }
+
+  .message {
+    background-color: black;
+    color: white;
+    margin: 8px 10px;
+    border-radius: 5px;
+    padding: 1px 5px;
+    width: fit-content;
+}
+
+.left{
+  float: left;
+  clear: both;
+}
+
+.right{
+  float: right;
+  clear: both;
+}
+
+
+
